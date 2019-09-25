@@ -18,5 +18,5 @@ class App < Sinatra::Base
     "#{@phrase}" * @n
   end
   
-  
+  get 
 end
