@@ -31,5 +31,6 @@ class App < Sinatra::Base
     @operation = params[:operation]
     @n1 = params[:number1].to_i
     @n2 = params[:number2].to_i
+    
   end
 end
